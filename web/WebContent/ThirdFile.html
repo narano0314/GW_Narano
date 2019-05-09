@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ThirdSample</title>
+</head>
+<body>
+<form action ="third"method="post">
+	<!-- テキストボックス表示 -->
+	<h1>申込入力画面</h1>
+	<p>氏名：
+	<input type="text" name="name">
+	<p>年齢：
+	<select name="age"size="1">
+	<option value="none"></option>
+	<option value="10代">10代</option>
+	<option value="20代">20代</option>
+	<option value="30代">30代</option>
+	<option value="40代">40代</option>
+	<option value="50代">50代</option>
+	<option value="60代">60代</option>
+	<option value="70代">70代</option>
+
+	</select>10代～70代まで
+	<p>性別:
+	<input type="radio" name="gen" value="男性" checked="checked">男性
+	<input type="radio" name="gen" value="女性">女性
+	<p>興味のある言語
+	<input type="checkbox" name="kyoumi" value="java" checked="checked">java
+	<input type="checkbox" name="kyoumi" value="PHP">PHP
+	<input type="checkbox" name="kyoumi" value="C言語">C言語
+	<p>何か一言
+	<textarea name="what" rows="4" cols="20"></textarea>
+	<!-- 送信ボタン -->
+	<input type="submit" value="送信">
+</form>
+
+</body>
+</html>
